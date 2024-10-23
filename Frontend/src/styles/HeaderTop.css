@@ -12,3 +12,58 @@
 .enlace:hover {
    color: #e5b01f; /* Cambia el color al hacer hover */
  }
+
+/* SM: Pantallas entre 576px y 767.98px */
+@media (max-width: 767.98px) {
+    .enlace {
+        font-size: 0.65rem; /* Ajustar el tamaño para móviles grandes */
+    }
+
+    .enlace i {
+        font-size: 0.65rem; /* Iconos ligeramente más grandes */
+    }
+}
+
+/* MD: Pantallas entre 768px y 991.98px (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .enlace {
+        font-size: 0.9rem; /* Ajustar para tablets */
+    }
+
+    .enlace i {
+        font-size: 0.9rem; /* Iconos más grandes en tablets */
+    }
+}
+
+/* LG: Pantallas entre 992px y 1199.98px (escritorios pequeños) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .enlace {
+        font-size: 1rem; /* Tamaño más grande en escritorios pequeños */
+    }
+
+    .enlace i {
+        font-size: 1rem; /* Iconos más grandes en escritorios */
+    }
+}
+
+/* XL: Pantallas entre 1200px y 1399.98px (escritorios grandes) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .enlace {
+        font-size: 1rem; /* Fuente ligeramente más grande */
+    }
+
+    .enlace i {
+        font-size: 1rem; /* Iconos más grandes en escritorios grandes */
+    }
+}
+
+/* XXL: Pantallas de 1400px y mayores */
+@media (min-width: 1400px) {
+    .enlace {
+        font-size: 1rem; /* Fuente más grande en pantallas muy grandes */
+    }
+
+    .enlace i {
+        font-size: 1rem; /* Iconos aún más grandes */
+    }
+}
