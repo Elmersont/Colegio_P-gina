@@ -1,0 +1,14 @@
+.Header-top {
+    background-color: #009929; /* Cambia el color del fondo aquí */
+    padding: 10px 0; /* Añadir espacio superior e inferior */
+  }
+
+.enlace {
+   color: #fff; /* Color del texto */
+   text-decoration: none;
+   transition: color 0.3s ease; /* Transición para el hover */
+ }
+
+.enlace:hover {
+   color: #e5b01f; /* Cambia el color al hacer hover */
+ }
