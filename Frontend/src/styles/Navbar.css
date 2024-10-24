@@ -1,0 +1,27 @@
+.navbar-custom {
+    background-color: #fff;
+}
+
+.navbar-custom .dropdown-menu {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+  }
+  
+  .navbar-custom .dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navbar-custom .nav-item.dropdown:hover .nav-link {
+    border-bottom: 4px solid #009929;
+    color: #009929;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+
+  .navbar-custom .nav-link:hover {
+    border-bottom: 4px solid #009929;
+    color: #009929;
+    transition: border-bottom 0.3s ease-in-out;
+  }
