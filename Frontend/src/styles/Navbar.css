@@ -5,8 +5,11 @@
 .navbar-custom .dropdown-menu {
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
-    display: block;
+    display: none;
     visibility: hidden;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius: 0px;
   }
   
   .navbar-custom .dropdown-menu.show {
@@ -25,3 +28,11 @@
     color: #009929;
     transition: border-bottom 0.3s ease-in-out;
   }
+
+  .navbar-custom .dropdown-item:hover {
+    background-color: #009929;
+    margin: 0px 0px 0px 0px!important;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+
